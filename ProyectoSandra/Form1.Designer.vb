@@ -42,7 +42,6 @@ Partial Class Form1
         Me.EmpleadosPorAñoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VentasPorProductosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ComprasPorProvedoresToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.NuecoCampoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -57,7 +56,7 @@ Partial Class Form1
         '
         'OperacionesToolStripMenuItem
         '
-        Me.OperacionesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.InsertarToolStripMenuItem, Me.ModificarToolStripMenuItem, Me.EliminarToolStripMenuItem, Me.NuecoCampoToolStripMenuItem})
+        Me.OperacionesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.InsertarToolStripMenuItem, Me.ModificarToolStripMenuItem, Me.EliminarToolStripMenuItem})
         Me.OperacionesToolStripMenuItem.Name = "OperacionesToolStripMenuItem"
         Me.OperacionesToolStripMenuItem.Size = New System.Drawing.Size(85, 20)
         Me.OperacionesToolStripMenuItem.Text = "Operaciones"
@@ -173,12 +172,6 @@ Partial Class Form1
         Me.ComprasPorProvedoresToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
         Me.ComprasPorProvedoresToolStripMenuItem.Text = "Compras por provedores"
         '
-        'NuecoCampoToolStripMenuItem
-        '
-        Me.NuecoCampoToolStripMenuItem.Name = "NuecoCampoToolStripMenuItem"
-        Me.NuecoCampoToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.NuecoCampoToolStripMenuItem.Text = "nueco campo"
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -215,5 +208,4 @@ Partial Class Form1
     Friend WithEvents EmpleadosPorAñoToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents VentasPorProductosToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ComprasPorProvedoresToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents NuecoCampoToolStripMenuItem As ToolStripMenuItem
 End Class
