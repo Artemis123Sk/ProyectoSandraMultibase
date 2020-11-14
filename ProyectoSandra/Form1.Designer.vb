@@ -43,6 +43,7 @@ Partial Class Form1
         Me.VentasPorProductosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ComprasPorProvedoresToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -182,11 +183,21 @@ Partial Class Form1
         Me.Button1.Text = "Hola"
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(512, 181)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(85, 42)
+        Me.Button2.TabIndex = 2
+        Me.Button2.Text = "Button2"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
@@ -220,4 +231,5 @@ Partial Class Form1
     Friend WithEvents VentasPorProductosToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ComprasPorProvedoresToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
 End Class
