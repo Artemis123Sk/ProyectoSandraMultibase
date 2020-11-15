@@ -24,16 +24,6 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.OperacionesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.InsertarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.DepartamentoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ClientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.HorarioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ProvedoresToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ProductosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PedidosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SucursalesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ModificarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EliminarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MovimientosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PedidosToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.RegistrarComprasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -42,8 +32,7 @@ Partial Class Form1
         Me.EmpleadosPorAñoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VentasPorProductosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ComprasPorProvedoresToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.ProvedoresToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -58,71 +47,10 @@ Partial Class Form1
         '
         'OperacionesToolStripMenuItem
         '
-        Me.OperacionesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.InsertarToolStripMenuItem, Me.ModificarToolStripMenuItem, Me.EliminarToolStripMenuItem})
+        Me.OperacionesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ProvedoresToolStripMenuItem})
         Me.OperacionesToolStripMenuItem.Name = "OperacionesToolStripMenuItem"
-        Me.OperacionesToolStripMenuItem.Size = New System.Drawing.Size(85, 20)
-        Me.OperacionesToolStripMenuItem.Text = "Operaciones"
-        '
-        'InsertarToolStripMenuItem
-        '
-        Me.InsertarToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DepartamentoToolStripMenuItem, Me.ClientesToolStripMenuItem, Me.HorarioToolStripMenuItem, Me.ProvedoresToolStripMenuItem, Me.ProductosToolStripMenuItem, Me.PedidosToolStripMenuItem, Me.SucursalesToolStripMenuItem})
-        Me.InsertarToolStripMenuItem.Name = "InsertarToolStripMenuItem"
-        Me.InsertarToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.InsertarToolStripMenuItem.Text = "insertar"
-        '
-        'DepartamentoToolStripMenuItem
-        '
-        Me.DepartamentoToolStripMenuItem.Name = "DepartamentoToolStripMenuItem"
-        Me.DepartamentoToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
-        Me.DepartamentoToolStripMenuItem.Text = "Departamento"
-        '
-        'ClientesToolStripMenuItem
-        '
-        Me.ClientesToolStripMenuItem.Name = "ClientesToolStripMenuItem"
-        Me.ClientesToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
-        Me.ClientesToolStripMenuItem.Text = "clientes"
-        '
-        'HorarioToolStripMenuItem
-        '
-        Me.HorarioToolStripMenuItem.Name = "HorarioToolStripMenuItem"
-        Me.HorarioToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
-        Me.HorarioToolStripMenuItem.Text = "horario"
-        '
-        'ProvedoresToolStripMenuItem
-        '
-        Me.ProvedoresToolStripMenuItem.Name = "ProvedoresToolStripMenuItem"
-        Me.ProvedoresToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
-        Me.ProvedoresToolStripMenuItem.Text = "Provedores"
-        '
-        'ProductosToolStripMenuItem
-        '
-        Me.ProductosToolStripMenuItem.Name = "ProductosToolStripMenuItem"
-        Me.ProductosToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
-        Me.ProductosToolStripMenuItem.Text = "productos"
-        '
-        'PedidosToolStripMenuItem
-        '
-        Me.PedidosToolStripMenuItem.Name = "PedidosToolStripMenuItem"
-        Me.PedidosToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
-        Me.PedidosToolStripMenuItem.Text = "pedidos"
-        '
-        'SucursalesToolStripMenuItem
-        '
-        Me.SucursalesToolStripMenuItem.Name = "SucursalesToolStripMenuItem"
-        Me.SucursalesToolStripMenuItem.Size = New System.Drawing.Size(150, 22)
-        Me.SucursalesToolStripMenuItem.Text = "sucursales"
-        '
-        'ModificarToolStripMenuItem
-        '
-        Me.ModificarToolStripMenuItem.Name = "ModificarToolStripMenuItem"
-        Me.ModificarToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.ModificarToolStripMenuItem.Text = "modificar"
-        '
-        'EliminarToolStripMenuItem
-        '
-        Me.EliminarToolStripMenuItem.Name = "EliminarToolStripMenuItem"
-        Me.EliminarToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.EliminarToolStripMenuItem.Text = "Eliminar"
+        Me.OperacionesToolStripMenuItem.Size = New System.Drawing.Size(72, 20)
+        Me.OperacionesToolStripMenuItem.Text = "Catalogos"
         '
         'MovimientosToolStripMenuItem
         '
@@ -174,31 +102,17 @@ Partial Class Form1
         Me.ComprasPorProvedoresToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
         Me.ComprasPorProvedoresToolStripMenuItem.Text = "Compras por provedores"
         '
-        'Button1
+        'ProvedoresToolStripMenuItem
         '
-        Me.Button1.Location = New System.Drawing.Point(355, 129)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 1
-        Me.Button1.Text = "Hola"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(512, 181)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(85, 42)
-        Me.Button2.TabIndex = 2
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.ProvedoresToolStripMenuItem.Name = "ProvedoresToolStripMenuItem"
+        Me.ProvedoresToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ProvedoresToolStripMenuItem.Text = "Provedores"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Form1"
@@ -212,16 +126,6 @@ Partial Class Form1
 
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents OperacionesToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents InsertarToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents DepartamentoToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ClientesToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents HorarioToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ProvedoresToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ProductosToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents PedidosToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents SucursalesToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ModificarToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents EliminarToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents MovimientosToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PedidosToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents RegistrarComprasToolStripMenuItem As ToolStripMenuItem
@@ -230,6 +134,5 @@ Partial Class Form1
     Friend WithEvents EmpleadosPorAñoToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents VentasPorProductosToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ComprasPorProvedoresToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents ProvedoresToolStripMenuItem As ToolStripMenuItem
 End Class
