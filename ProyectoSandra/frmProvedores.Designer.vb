@@ -41,11 +41,11 @@ Partial Class frmProvedores
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.lblTitulo = New System.Windows.Forms.Label()
         Me.idProvedor = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.nombre = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.celular = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.telefono = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.lblTitulo = New System.Windows.Forms.Label()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -219,9 +219,9 @@ Partial Class frmProvedores
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(16, 16)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(90, 18)
+        Me.Label1.Size = New System.Drawing.Size(99, 18)
         Me.Label1.TabIndex = 38
-        Me.Label1.Text = "idProvedor"
+        Me.Label1.Text = "idProveedor"
         '
         'DataGridView1
         '
@@ -233,9 +233,22 @@ Partial Class frmProvedores
         Me.DataGridView1.Size = New System.Drawing.Size(463, 150)
         Me.DataGridView1.TabIndex = 42
         '
+        'lblTitulo
+        '
+        Me.lblTitulo.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblTitulo.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTitulo.ForeColor = System.Drawing.Color.Blue
+        Me.lblTitulo.Location = New System.Drawing.Point(0, 9)
+        Me.lblTitulo.Name = "lblTitulo"
+        Me.lblTitulo.Size = New System.Drawing.Size(868, 38)
+        Me.lblTitulo.TabIndex = 75
+        Me.lblTitulo.Text = "Registrar proveedor"
+        Me.lblTitulo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'idProvedor
         '
-        Me.idProvedor.HeaderText = "idProvedor"
+        Me.idProvedor.HeaderText = "idProveedor"
         Me.idProvedor.Name = "idProvedor"
         '
         'nombre
@@ -252,19 +265,6 @@ Partial Class frmProvedores
         '
         Me.telefono.HeaderText = "Telefono"
         Me.telefono.Name = "telefono"
-        '
-        'lblTitulo
-        '
-        Me.lblTitulo.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.lblTitulo.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTitulo.ForeColor = System.Drawing.Color.Blue
-        Me.lblTitulo.Location = New System.Drawing.Point(169, 9)
-        Me.lblTitulo.Name = "lblTitulo"
-        Me.lblTitulo.Size = New System.Drawing.Size(522, 38)
-        Me.lblTitulo.TabIndex = 75
-        Me.lblTitulo.Text = "Registrar provedor"
-        Me.lblTitulo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'frmProvedores
         '
@@ -308,9 +308,9 @@ Partial Class frmProvedores
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents lblTitulo As Label
     Friend WithEvents idProvedor As DataGridViewTextBoxColumn
     Friend WithEvents nombre As DataGridViewTextBoxColumn
     Friend WithEvents celular As DataGridViewTextBoxColumn
     Friend WithEvents telefono As DataGridViewTextBoxColumn
-    Friend WithEvents lblTitulo As Label
 End Class
