@@ -111,7 +111,7 @@ Partial Class Form1
         '
         Me.ProvedoresToolStripMenuItem.Name = "ProvedoresToolStripMenuItem"
         Me.ProvedoresToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.ProvedoresToolStripMenuItem.Text = "Provedores"
+        Me.ProvedoresToolStripMenuItem.Text = "Proveedores"
         '
         'ClientesToolStripMenuItem
         '
