@@ -24,6 +24,12 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.OperacionesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ProvedoresToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ClientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ProductosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.HorariosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DepartamentosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SucursalesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MovimientosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PedidosToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.RegistrarComprasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -32,12 +38,6 @@ Partial Class Form1
         Me.EmpleadosPorAñoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VentasPorProductosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ComprasPorProvedoresToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ProvedoresToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ClientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ProductosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.HorariosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.DepartamentosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SucursalesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -56,6 +56,42 @@ Partial Class Form1
         Me.OperacionesToolStripMenuItem.Name = "OperacionesToolStripMenuItem"
         Me.OperacionesToolStripMenuItem.Size = New System.Drawing.Size(72, 20)
         Me.OperacionesToolStripMenuItem.Text = "Catálogos"
+        '
+        'ProvedoresToolStripMenuItem
+        '
+        Me.ProvedoresToolStripMenuItem.Name = "ProvedoresToolStripMenuItem"
+        Me.ProvedoresToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ProvedoresToolStripMenuItem.Text = "Proveedores"
+        '
+        'ClientesToolStripMenuItem
+        '
+        Me.ClientesToolStripMenuItem.Name = "ClientesToolStripMenuItem"
+        Me.ClientesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ClientesToolStripMenuItem.Text = "Clientes"
+        '
+        'ProductosToolStripMenuItem
+        '
+        Me.ProductosToolStripMenuItem.Name = "ProductosToolStripMenuItem"
+        Me.ProductosToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ProductosToolStripMenuItem.Text = "Productos"
+        '
+        'HorariosToolStripMenuItem
+        '
+        Me.HorariosToolStripMenuItem.Name = "HorariosToolStripMenuItem"
+        Me.HorariosToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.HorariosToolStripMenuItem.Text = "Horarios"
+        '
+        'DepartamentosToolStripMenuItem
+        '
+        Me.DepartamentosToolStripMenuItem.Name = "DepartamentosToolStripMenuItem"
+        Me.DepartamentosToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.DepartamentosToolStripMenuItem.Text = "Departamentos"
+        '
+        'SucursalesToolStripMenuItem
+        '
+        Me.SucursalesToolStripMenuItem.Name = "SucursalesToolStripMenuItem"
+        Me.SucursalesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SucursalesToolStripMenuItem.Text = "Sucursales"
         '
         'MovimientosToolStripMenuItem
         '
@@ -106,42 +142,6 @@ Partial Class Form1
         Me.ComprasPorProvedoresToolStripMenuItem.Name = "ComprasPorProvedoresToolStripMenuItem"
         Me.ComprasPorProvedoresToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
         Me.ComprasPorProvedoresToolStripMenuItem.Text = "Compras por provedores"
-        '
-        'ProvedoresToolStripMenuItem
-        '
-        Me.ProvedoresToolStripMenuItem.Name = "ProvedoresToolStripMenuItem"
-        Me.ProvedoresToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.ProvedoresToolStripMenuItem.Text = "Proveedores"
-        '
-        'ClientesToolStripMenuItem
-        '
-        Me.ClientesToolStripMenuItem.Name = "ClientesToolStripMenuItem"
-        Me.ClientesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.ClientesToolStripMenuItem.Text = "Clientes"
-        '
-        'ProductosToolStripMenuItem
-        '
-        Me.ProductosToolStripMenuItem.Name = "ProductosToolStripMenuItem"
-        Me.ProductosToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.ProductosToolStripMenuItem.Text = "Productos"
-        '
-        'HorariosToolStripMenuItem
-        '
-        Me.HorariosToolStripMenuItem.Name = "HorariosToolStripMenuItem"
-        Me.HorariosToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.HorariosToolStripMenuItem.Text = "Horarios"
-        '
-        'DepartamentosToolStripMenuItem
-        '
-        Me.DepartamentosToolStripMenuItem.Name = "DepartamentosToolStripMenuItem"
-        Me.DepartamentosToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.DepartamentosToolStripMenuItem.Text = "Departamentos"
-        '
-        'SucursalesToolStripMenuItem
-        '
-        Me.SucursalesToolStripMenuItem.Name = "SucursalesToolStripMenuItem"
-        Me.SucursalesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.SucursalesToolStripMenuItem.Text = "Sucursales"
         '
         'Form1
         '

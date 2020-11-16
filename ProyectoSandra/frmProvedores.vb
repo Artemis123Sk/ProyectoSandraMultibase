@@ -87,6 +87,9 @@ Public Class frmProvedores
         Dim filas As Integer
         filas = DataGridView1.RowCount
         filas -= 2
+        If filas < 1 Then
+            filas = 0
+        End If
         colocar(filas)
     End Sub
 
