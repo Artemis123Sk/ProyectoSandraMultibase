@@ -10,4 +10,8 @@
     Private Sub ClientesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ClientesToolStripMenuItem.Click
         frmClientes.ShowDialog()
     End Sub
+
+    Private Sub ProductosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ProductosToolStripMenuItem.Click
+        frmProductos.ShowDialog()
+    End Sub
 End Class
