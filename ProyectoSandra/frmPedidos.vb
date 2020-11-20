@@ -1,6 +1,7 @@
-﻿Imports System.Data.SqlClient
+﻿Imports System.ComponentModel
+Imports System.Data.SqlClient
 Public Class frmPedidos
-    Dim conexion As New SqlConnection("Data Source = MMHH66M\SQLEXPRESS; Database=lala; Integrated Security = True")
+    Dim conexion As New SqlConnection("Data Source = EVER\SQLEXPRESS; Database=lala; Integrated Security = True")
     Dim comando As New SqlCommand
     Dim lector As SqlDataReader
     Dim n, n1 As Integer
@@ -27,10 +28,10 @@ Public Class frmPedidos
     End Sub
 
     Private Sub cboProducto_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboProducto.SelectedIndexChanged
-        comando.CommandText = "Select count(idProducto) from Productos where nombre='" & cboNombre.Text & "'"
+        comando.CommandText = "Select idProducto from Productos where nombre='" & cboProducto.Text & "'"
         lector = comando.ExecuteReader
         lector.Read()
-        txtidProducto.Text = CInt(lector(0)) + 1
+        txtidProducto.Text = lector(0)
         n2 = lector(0)
         lector.Close()
     End Sub
@@ -86,7 +87,7 @@ Public Class frmPedidos
                 MsgBox("Antes de grabar agregue un producto")
             End If
         Catch ex As Exception
-
+            MsgBox(ex.Message)
         End Try
     End Sub
 
@@ -133,5 +134,7 @@ Public Class frmPedidos
         lector.Close()
     End Sub
 
-
+    Private Sub frmPedidos_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing
+        conexion.Close()
+    End Sub
 End Class

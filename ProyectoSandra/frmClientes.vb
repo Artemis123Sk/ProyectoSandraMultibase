@@ -1,7 +1,7 @@
 ﻿Imports System.ComponentModel
 Imports System.Data.SqlClient
 Public Class frmClientes
-    Dim conexion As New SqlConnection("Data Source = MMHH66M\SQLEXPRESS; Database=lala; Integrated Security = True")
+    Dim conexion As New SqlConnection("Data Source = EVER\SQLEXPRESS; Database=lala; Integrated Security = True")
     Dim comando As New SqlCommand
     Dim lector As SqlDataReader
     Dim opcion As Integer = 0
