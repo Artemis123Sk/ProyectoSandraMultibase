@@ -48,8 +48,14 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="mono.security">
+      <HintPath>C:\Liberias\mono.security.dll</HintPath>
+    </Reference>
     <Reference Include="MySql.Data">
-      <HintPath>..\..\Documentos\7 Semestre\documentos descargados\ddl\Connector NET 8.0\Assemblies\v4.5.2\MySql.Data.dll</HintPath>
+      <HintPath>C:\Liberias\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="npgsql">
+      <HintPath>C:\Liberias\npgsql.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -105,6 +111,12 @@
       <DependentUpon>frmConsultaCompras.vb</DependentUpon>
     </Compile>
     <Compile Include="frmConsultaCompras.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDepartamentos.Designer.vb">
+      <DependentUpon>FrmDepartamentos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDepartamentos.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmPedidos.Designer.vb">

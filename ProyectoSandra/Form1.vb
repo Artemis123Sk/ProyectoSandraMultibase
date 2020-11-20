@@ -30,4 +30,8 @@
     Private Sub ComprasPorProvedoresToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ComprasPorProvedoresToolStripMenuItem.Click
         frmComprasPorProvedor.Show()
     End Sub
+
+    Private Sub DepartamentosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DepartamentosToolStripMenuItem.Click
+        FrmDepartamentos.Show()
+    End Sub
 End Class
