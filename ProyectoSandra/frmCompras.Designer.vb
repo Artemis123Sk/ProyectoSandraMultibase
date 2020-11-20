@@ -236,9 +236,9 @@ Partial Class frmCompras
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(32, 19)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(72, 18)
+        Me.Label2.Size = New System.Drawing.Size(81, 18)
         Me.Label2.TabIndex = 56
-        Me.Label2.Text = "Cocepto"
+        Me.Label2.Text = "Concepto"
         '
         'btnAgregar
         '
@@ -405,7 +405,7 @@ Partial Class frmCompras
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label5)
         Me.Name = "frmCompras"
-        Me.Text = "frmCompras"
+        Me.Text = "Compras"
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox3.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)

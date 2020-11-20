@@ -33,12 +33,12 @@ Partial Class Form1
         Me.MovimientosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PedidosToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.RegistrarComprasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ConsultarComprasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ContratarEmpleadoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ReportesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.EmpleadosPorAñoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VentasPorProductosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ComprasPorProvedoresToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ConsultarComprasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -114,6 +114,12 @@ Partial Class Form1
         Me.RegistrarComprasToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.RegistrarComprasToolStripMenuItem.Text = "Registrar Compras"
         '
+        'ConsultarComprasToolStripMenuItem
+        '
+        Me.ConsultarComprasToolStripMenuItem.Name = "ConsultarComprasToolStripMenuItem"
+        Me.ConsultarComprasToolStripMenuItem.Size = New System.Drawing.Size(176, 22)
+        Me.ConsultarComprasToolStripMenuItem.Text = "Consultar Compras"
+        '
         'ContratarEmpleadoToolStripMenuItem
         '
         Me.ContratarEmpleadoToolStripMenuItem.Name = "ContratarEmpleadoToolStripMenuItem"
@@ -144,12 +150,6 @@ Partial Class Form1
         Me.ComprasPorProvedoresToolStripMenuItem.Name = "ComprasPorProvedoresToolStripMenuItem"
         Me.ComprasPorProvedoresToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
         Me.ComprasPorProvedoresToolStripMenuItem.Text = "Compras por provedores"
-        '
-        'ConsultarComprasToolStripMenuItem
-        '
-        Me.ConsultarComprasToolStripMenuItem.Name = "ConsultarComprasToolStripMenuItem"
-        Me.ConsultarComprasToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.ConsultarComprasToolStripMenuItem.Text = "Consultar Compras"
         '
         'Form1
         '
