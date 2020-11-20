@@ -68,7 +68,7 @@ Public Class frmPedidos
                 End If
                 For i = 0 To filas
                     s = Replace(dvRejilla.Item(3, i).Value, ",", ".")
-                    s = "insert into detallePedido(idPedido, idProducto, cantidad, precio) values (" & txtIdPedido.Text & ", " & txtidProducto.Text & ", " & dvRejilla.Item(2, i).Value & ", " & s & ")"
+                    s = "insert into detallePedido(idPedido, idProducto, cantidad, precio) values (" & txtIdPedido.Text & ", " & dvRejilla.Item(0, i).Value & ", " & dvRejilla.Item(2, i).Value & ", " & s & ")"
                     comando.CommandText = s
                     comando.ExecuteNonQuery()
                 Next
