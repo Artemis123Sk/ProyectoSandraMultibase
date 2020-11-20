@@ -131,6 +131,12 @@
     <Compile Include="frmEmpleados.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmEmpleadosPorA.Designer.vb">
+      <DependentUpon>frmEmpleadosPorA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmpleadosPorA.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmHorarios.Designer.vb">
       <DependentUpon>frmHorarios.vb</DependentUpon>
     </Compile>
@@ -198,6 +204,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmEmpleados.resx">
       <DependentUpon>frmEmpleados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmpleadosPorA.resx">
+      <DependentUpon>frmEmpleadosPorA.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmHorarios.resx">
       <DependentUpon>frmHorarios.vb</DependentUpon>

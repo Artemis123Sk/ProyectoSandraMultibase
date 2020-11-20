@@ -133,7 +133,7 @@ Partial Class Form1
         '
         Me.ReportesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EmpleadosPorAñoToolStripMenuItem, Me.VentasPorProductosToolStripMenuItem, Me.ComprasPorProvedoresToolStripMenuItem})
         Me.ReportesToolStripMenuItem.Name = "ReportesToolStripMenuItem"
-        Me.ReportesToolStripMenuItem.Size = New System.Drawing.Size(82, 24)
+        Me.ReportesToolStripMenuItem.Size = New System.Drawing.Size(82, 26)
         Me.ReportesToolStripMenuItem.Text = "Reportes"
         '
         'EmpleadosPorAñoToolStripMenuItem

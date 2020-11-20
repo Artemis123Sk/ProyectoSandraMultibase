@@ -46,4 +46,8 @@
     Private Sub ConsultaEmpleadosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ConsultaEmpleadosToolStripMenuItem.Click
         frmConsultaEmpleados.Show()
     End Sub
+
+    Private Sub EmpleadosPorAñoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EmpleadosPorAñoToolStripMenuItem.Click
+        frmEmpleadosPorA.Show()
+    End Sub
 End Class
