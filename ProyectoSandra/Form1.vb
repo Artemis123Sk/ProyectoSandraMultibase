@@ -38,4 +38,8 @@
     Private Sub HorariosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles HorariosToolStripMenuItem.Click
         FrmHorarios.Show()
     End Sub
+
+    Private Sub ContratarEmpleadoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ContratarEmpleadoToolStripMenuItem.Click
+        frmEmpleados.Show()
+    End Sub
 End Class
