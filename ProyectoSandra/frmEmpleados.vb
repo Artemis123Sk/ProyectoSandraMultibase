@@ -23,15 +23,15 @@ Public Class frmEmpleados
         End While
         lector.Close()
 
-        Dim command1 = New Npgsql.NpgsqlCommand("select * from Horario;", Myconnection)
-        lector = command1.ExecuteReader()
+        command = New Npgsql.NpgsqlCommand("select * from Horario;", Myconnection)
+        lector = command.ExecuteReader()
         While lector.Read()
             cboIdHorario.Items.Add(lector(0))
         End While
         lector.Close()
 
-        Dim command2 = New Npgsql.NpgsqlCommand("select * from Departamento;", Myconnection)
-        lector = command2.ExecuteReader()
+        command = New Npgsql.NpgsqlCommand("select * from Departamento;", Myconnection)
+        lector = command.ExecuteReader()
         While lector.Read()
             cboIdDepartamento.Items.Add(lector(0))
         End While
@@ -49,6 +49,18 @@ Public Class frmEmpleados
         btnAgregar.Enabled = False
         btnGrabar.Enabled = True
         operacion = 1
+
+        command = New Npgsql.NpgsqlCommand("select * from Empleados;", Myconnection)
+        lector = command.ExecuteReader
+        lector = command.ExecuteReader()
+        Dim clave As Integer
+        While lector.Read()
+            clave = lector(0)
+        End While
+        lector.Close()
+        clave = clave + 1
+        txtIdEmpleado.Text = clave
+
     End Sub
 
     Private Sub cboClaveS_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboClaveS.SelectedIndexChanged
