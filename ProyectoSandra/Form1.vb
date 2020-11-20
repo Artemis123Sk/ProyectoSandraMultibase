@@ -14,4 +14,12 @@
     Private Sub ProductosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ProductosToolStripMenuItem.Click
         frmProductos.ShowDialog()
     End Sub
+
+    Private Sub RegistrarComprasToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RegistrarComprasToolStripMenuItem.Click
+        frmCompras.Show()
+    End Sub
+
+    Private Sub ConsultarComprasToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ConsultarComprasToolStripMenuItem.Click
+        frmConsultaCompras.Show()
+    End Sub
 End Class

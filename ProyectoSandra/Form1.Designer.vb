@@ -38,6 +38,7 @@ Partial Class Form1
         Me.EmpleadosPorAñoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VentasPorProductosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ComprasPorProvedoresToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ConsultarComprasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -60,37 +61,37 @@ Partial Class Form1
         'ProvedoresToolStripMenuItem
         '
         Me.ProvedoresToolStripMenuItem.Name = "ProvedoresToolStripMenuItem"
-        Me.ProvedoresToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ProvedoresToolStripMenuItem.Size = New System.Drawing.Size(155, 22)
         Me.ProvedoresToolStripMenuItem.Text = "Proveedores"
         '
         'ClientesToolStripMenuItem
         '
         Me.ClientesToolStripMenuItem.Name = "ClientesToolStripMenuItem"
-        Me.ClientesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ClientesToolStripMenuItem.Size = New System.Drawing.Size(155, 22)
         Me.ClientesToolStripMenuItem.Text = "Clientes"
         '
         'ProductosToolStripMenuItem
         '
         Me.ProductosToolStripMenuItem.Name = "ProductosToolStripMenuItem"
-        Me.ProductosToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ProductosToolStripMenuItem.Size = New System.Drawing.Size(155, 22)
         Me.ProductosToolStripMenuItem.Text = "Productos"
         '
         'HorariosToolStripMenuItem
         '
         Me.HorariosToolStripMenuItem.Name = "HorariosToolStripMenuItem"
-        Me.HorariosToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.HorariosToolStripMenuItem.Size = New System.Drawing.Size(155, 22)
         Me.HorariosToolStripMenuItem.Text = "Horarios"
         '
         'DepartamentosToolStripMenuItem
         '
         Me.DepartamentosToolStripMenuItem.Name = "DepartamentosToolStripMenuItem"
-        Me.DepartamentosToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.DepartamentosToolStripMenuItem.Size = New System.Drawing.Size(155, 22)
         Me.DepartamentosToolStripMenuItem.Text = "Departamentos"
         '
         'SucursalesToolStripMenuItem
         '
         Me.SucursalesToolStripMenuItem.Name = "SucursalesToolStripMenuItem"
-        Me.SucursalesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SucursalesToolStripMenuItem.Size = New System.Drawing.Size(155, 22)
         Me.SucursalesToolStripMenuItem.Text = "Sucursales"
         '
         'MovimientosToolStripMenuItem
@@ -108,6 +109,7 @@ Partial Class Form1
         '
         'RegistrarComprasToolStripMenuItem
         '
+        Me.RegistrarComprasToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ConsultarComprasToolStripMenuItem})
         Me.RegistrarComprasToolStripMenuItem.Name = "RegistrarComprasToolStripMenuItem"
         Me.RegistrarComprasToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.RegistrarComprasToolStripMenuItem.Text = "Registrar Compras"
@@ -143,6 +145,12 @@ Partial Class Form1
         Me.ComprasPorProvedoresToolStripMenuItem.Size = New System.Drawing.Size(205, 22)
         Me.ComprasPorProvedoresToolStripMenuItem.Text = "Compras por provedores"
         '
+        'ConsultarComprasToolStripMenuItem
+        '
+        Me.ConsultarComprasToolStripMenuItem.Name = "ConsultarComprasToolStripMenuItem"
+        Me.ConsultarComprasToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ConsultarComprasToolStripMenuItem.Text = "Consultar Compras"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -175,4 +183,5 @@ Partial Class Form1
     Friend WithEvents HorariosToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents DepartamentosToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SucursalesToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ConsultarComprasToolStripMenuItem As ToolStripMenuItem
 End Class
