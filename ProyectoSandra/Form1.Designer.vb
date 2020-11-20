@@ -39,6 +39,7 @@ Partial Class Form1
         Me.EmpleadosPorAñoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VentasPorProductosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ComprasPorProvedoresToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ConsultaEmpleadosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -48,7 +49,7 @@ Partial Class Form1
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.OperacionesToolStripMenuItem, Me.MovimientosToolStripMenuItem, Me.ReportesToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(1067, 28)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1067, 30)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -99,7 +100,7 @@ Partial Class Form1
         '
         Me.MovimientosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PedidosToolStripMenuItem1, Me.RegistrarComprasToolStripMenuItem, Me.ContratarEmpleadoToolStripMenuItem})
         Me.MovimientosToolStripMenuItem.Name = "MovimientosToolStripMenuItem"
-        Me.MovimientosToolStripMenuItem.Size = New System.Drawing.Size(109, 24)
+        Me.MovimientosToolStripMenuItem.Size = New System.Drawing.Size(109, 26)
         Me.MovimientosToolStripMenuItem.Text = "Movimientos"
         '
         'PedidosToolStripMenuItem1
@@ -123,6 +124,7 @@ Partial Class Form1
         '
         'ContratarEmpleadoToolStripMenuItem
         '
+        Me.ContratarEmpleadoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ConsultaEmpleadosToolStripMenuItem})
         Me.ContratarEmpleadoToolStripMenuItem.Name = "ContratarEmpleadoToolStripMenuItem"
         Me.ContratarEmpleadoToolStripMenuItem.Size = New System.Drawing.Size(226, 26)
         Me.ContratarEmpleadoToolStripMenuItem.Text = "Contratar Empleado"
@@ -151,6 +153,12 @@ Partial Class Form1
         Me.ComprasPorProvedoresToolStripMenuItem.Name = "ComprasPorProvedoresToolStripMenuItem"
         Me.ComprasPorProvedoresToolStripMenuItem.Size = New System.Drawing.Size(257, 26)
         Me.ComprasPorProvedoresToolStripMenuItem.Text = "Compras por provedores"
+        '
+        'ConsultaEmpleadosToolStripMenuItem
+        '
+        Me.ConsultaEmpleadosToolStripMenuItem.Name = "ConsultaEmpleadosToolStripMenuItem"
+        Me.ConsultaEmpleadosToolStripMenuItem.Size = New System.Drawing.Size(227, 26)
+        Me.ConsultaEmpleadosToolStripMenuItem.Text = "Consulta Empleados"
         '
         'Form1
         '
@@ -186,4 +194,5 @@ Partial Class Form1
     Friend WithEvents DepartamentosToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SucursalesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ConsultarComprasToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ConsultaEmpleadosToolStripMenuItem As ToolStripMenuItem
 End Class
