@@ -119,6 +119,12 @@
     <Compile Include="FrmDepartamentos.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmHorarios.Designer.vb">
+      <DependentUpon>frmHorarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHorarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmPedidos.Designer.vb">
       <DependentUpon>frmPedidos.vb</DependentUpon>
     </Compile>
@@ -174,6 +180,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmConsultaCompras.resx">
       <DependentUpon>frmConsultaCompras.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHorarios.resx">
+      <DependentUpon>frmHorarios.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPedidos.resx">
       <DependentUpon>frmPedidos.vb</DependentUpon>

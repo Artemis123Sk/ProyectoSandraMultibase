@@ -34,4 +34,8 @@
     Private Sub DepartamentosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DepartamentosToolStripMenuItem.Click
         FrmDepartamentos.Show()
     End Sub
+
+    Private Sub HorariosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles HorariosToolStripMenuItem.Click
+        FrmHorarios.Show()
+    End Sub
 End Class
