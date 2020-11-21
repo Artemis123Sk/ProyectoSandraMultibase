@@ -119,6 +119,12 @@
     <Compile Include="frmConsultaEmpleados.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmConsultaPedido.Designer.vb">
+      <DependentUpon>frmConsultaPedido.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaPedido.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FrmDepartamentos.Designer.vb">
       <DependentUpon>FrmDepartamentos.vb</DependentUpon>
     </Compile>
@@ -167,6 +173,12 @@
     <Compile Include="frmSucursales.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmVentaProductos.Designer.vb">
+      <DependentUpon>frmVentaProductos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVentaProductos.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -202,6 +214,9 @@
     <EmbeddedResource Include="frmConsultaEmpleados.resx">
       <DependentUpon>frmConsultaEmpleados.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaPedido.resx">
+      <DependentUpon>frmConsultaPedido.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmEmpleados.resx">
       <DependentUpon>frmEmpleados.vb</DependentUpon>
     </EmbeddedResource>
@@ -222,6 +237,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmSucursales.resx">
       <DependentUpon>frmSucursales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVentaProductos.resx">
+      <DependentUpon>frmVentaProductos.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
