@@ -1,12 +1,13 @@
 ﻿Imports System.ComponentModel
 Imports System.Data.SqlClient
 Public Class frmVentaProductos
-    Dim conexion As New SqlConnection("Data Source = MMHH66M\SQLEXPRESS; Database=lala; Integrated Security = True")
+    Dim conexion As New SqlConnection
     Dim comando As New SqlCommand
     Dim lector As SqlDataReader
     Dim res As Boolean
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        conexion = New SqlConnection(sqlServerC)
         conexion.Open()
         comando = conexion.CreateCommand
         comando.CommandText = "Select * from Clientes"

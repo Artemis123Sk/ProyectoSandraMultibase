@@ -10,14 +10,15 @@ Public Class frmSucursales
     Dim Myconnection As New Npgsql.NpgsqlConnection
     Dim command As Npgsql.NpgsqlCommand
     Dim lectorj As NpgsqlDataReader
-    Dim conexion1 As New SqlConnection("Data Source = MMHH66M\SQLEXPRESS; Database=lala; Integrated Security = True")
+    Dim conexion1 As New SqlConnection
     Dim comando1 As New SqlCommand
 
     Private Sub frmSucursales_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        conexion1 = New SqlConnection(sqlServerC)
         conexion1.Open()
         comando1 = conexion1.CreateCommand
 
-        Myconnection.ConnectionString = "Server=localhost;Port=5432; Database=lala;UserId=postgres;Password=bts"
+        Myconnection.ConnectionString = postgresC
         Myconnection.Open()
 
         conexion = New MySqlConnection("datasource=localhost;port=3306;username=root;password=;database=lala;")

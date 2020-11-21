@@ -1,7 +1,7 @@
 ﻿Imports System.ComponentModel
 Imports System.Data.SqlClient
 Public Class frmPedidos
-    Dim conexion As New SqlConnection("Data Source = EVER\SQLEXPRESS; Database=lala; Integrated Security = True")
+    Dim conexion As New SqlConnection
     Dim comando As New SqlCommand
     Dim lector As SqlDataReader
     Dim n, n1 As Integer
@@ -110,6 +110,7 @@ Public Class frmPedidos
     End Sub
 
     Private Sub frmPedidos_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        conexion = New SqlConnection(sqlServerC)
         conexion.Open()
         comando = conexion.CreateCommand
         comando.CommandText = "Select * from Clientes"

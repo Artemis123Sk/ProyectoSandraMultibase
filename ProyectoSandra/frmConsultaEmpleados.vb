@@ -6,7 +6,7 @@ Public Class frmConsultaEmpleados
     Dim lector As NpgsqlDataReader
     Private Sub frmConsultaEmpleados_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Try
-            Myconnection.ConnectionString = "Server=localhost;Port=5432; Database=lala;UserId=postgres;Password=bts"
+            Myconnection.ConnectionString = postgresC
             Myconnection.Open()
 
             If Myconnection.State = ConnectionState.Open Then

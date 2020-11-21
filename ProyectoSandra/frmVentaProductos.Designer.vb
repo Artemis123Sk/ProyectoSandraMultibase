@@ -91,7 +91,7 @@ Partial Class frmVentaProductos
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(800, 38)
         Me.Label5.TabIndex = 89
-        Me.Label5.Text = "Ventas por productos"
+        Me.Label5.Text = "Ventas por cliente"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'btnGenerar
