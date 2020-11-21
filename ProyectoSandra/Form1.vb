@@ -47,15 +47,15 @@
         frmConsultaEmpleados.Show()
     End Sub
 
-    Private Sub EmpleadosPorAñoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EmpleadosPorAñoToolStripMenuItem.Click
-        frmEmpleadosPorA.Show()
-    End Sub
-
     Private Sub ConsultarPedidosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ConsultarPedidosToolStripMenuItem.Click
         frmConsultaPedido.ShowDialog()
     End Sub
 
     Private Sub VentasPorProductosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VentasPorProductosToolStripMenuItem.Click
         frmVentaProductos.ShowDialog()
+    End Sub
+
+    Private Sub EmpleadosPorCPToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EmpleadosPorCPToolStripMenuItem.Click
+        frmEmpleadosPorA.Show()
     End Sub
 End Class
