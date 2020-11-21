@@ -1,6 +1,7 @@
 ﻿Imports System.ComponentModel
 Imports MySql.Data.MySqlClient
 Imports Npgsql
+Imports System.Data.SqlClient
 Public Class frmSucursales
     Dim conexion As MySqlConnection
     Dim comando As MySqlCommand
@@ -9,8 +10,13 @@ Public Class frmSucursales
     Dim Myconnection As New Npgsql.NpgsqlConnection
     Dim command As Npgsql.NpgsqlCommand
     Dim lectorj As NpgsqlDataReader
+    Dim conexion1 As New SqlConnection("Data Source = MMHH66M\SQLEXPRESS; Database=lala; Integrated Security = True")
+    Dim comando1 As New SqlCommand
 
     Private Sub frmSucursales_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        conexion1.Open()
+        comando1 = conexion1.CreateCommand
+
         Myconnection.ConnectionString = "Server=localhost;Port=5432; Database=lala;UserId=postgres;Password=bts"
         Myconnection.Open()
 
@@ -46,15 +52,19 @@ Public Class frmSucursales
 
                 comando.CommandText = "UPDATE sucursales set lugar = '" & txtLugar.Text & "' Where claveS =" & txtIdSucursal.Text
 
+                comando1.CommandText = "UPDATE sucursales set lugar = '" & txtLugar.Text & "' Where claveS =" & txtIdSucursal.Text
             ElseIf opcion = 1 Then
                 command = New Npgsql.NpgsqlCommand("insert into sucursales (claves,lugar) values ('" & txtIdSucursal.Text & "' , '" & txtLugar.Text & "');", Myconnection)
 
                 comando.CommandText = "insert into sucursales(claveS,lugar) values(" & txtIdSucursal.Text & ",'" & txtLugar.Text & "')"
 
+                comando1.CommandText = "insert into sucursales(claveS,lugar) values(" & txtIdSucursal.Text & ",'" & txtLugar.Text & "')"
             End If
             command.ExecuteNonQuery()
+
             comando.ExecuteNonQuery()
 
+            comando1.ExecuteNonQuery()
         Catch ex As Exception
             MsgBox("Ocurrio un error al intentar grabar compruebe los datos")
         End Try

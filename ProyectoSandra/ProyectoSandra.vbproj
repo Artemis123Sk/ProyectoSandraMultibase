@@ -49,13 +49,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="mono.security">
-      <HintPath>C:\Liberias\mono.security.dll</HintPath>
+      <HintPath>..\..\Documentos\7 Semestre\documentos descargados\Librerias\mono.security.dll</HintPath>
     </Reference>
     <Reference Include="MySql.Data">
       <HintPath>C:\Liberias\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="npgsql">
-      <HintPath>C:\Liberias\npgsql.dll</HintPath>
+      <HintPath>..\..\Documentos\7 Semestre\documentos descargados\Librerias\npgsql.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />

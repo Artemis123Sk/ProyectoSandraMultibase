@@ -1,4 +1,5 @@
 ﻿
+Imports System.ComponentModel
 Imports System.Data.SqlClient
 Public Class frmProductos
     Dim conexion As New SqlConnection("Data Source = EVER\SQLEXPRESS; Database=lala; Integrated Security = True")
@@ -112,5 +113,9 @@ Public Class frmProductos
         DataGridView1.CurrentCell = DataGridView1(0, fila)
         txtIdProducto.Text = DataGridView1.Item(0, fila).Value
         txtNombre.Text = DataGridView1.Item(1, fila).Value
+    End Sub
+
+    Private Sub frmProductos_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing
+        conexion.Close()
     End Sub
 End Class

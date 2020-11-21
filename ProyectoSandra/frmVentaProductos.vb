@@ -1,4 +1,5 @@
-﻿Imports System.Data.SqlClient
+﻿Imports System.ComponentModel
+Imports System.Data.SqlClient
 Public Class frmVentaProductos
     Dim conexion As New SqlConnection("Data Source = MMHH66M\SQLEXPRESS; Database=lala; Integrated Security = True")
     Dim comando As New SqlCommand
@@ -46,5 +47,9 @@ Public Class frmVentaProductos
         conexion.Close()
         Dispose()
 
+    End Sub
+
+    Private Sub frmVentaProductos_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing
+        conexion.Close()
     End Sub
 End Class
