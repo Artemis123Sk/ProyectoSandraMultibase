@@ -83,7 +83,7 @@ Partial Class frmEmpleados
         Me.GroupBox3.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox3.Size = New System.Drawing.Size(712, 73)
+        Me.GroupBox3.Size = New System.Drawing.Size(725, 73)
         Me.GroupBox3.TabIndex = 88
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Sucursal"
@@ -91,7 +91,7 @@ Partial Class frmEmpleados
         'txtLugar
         '
         Me.txtLugar.Enabled = False
-        Me.txtLugar.Location = New System.Drawing.Point(325, 29)
+        Me.txtLugar.Location = New System.Drawing.Point(350, 30)
         Me.txtLugar.Margin = New System.Windows.Forms.Padding(4)
         Me.txtLugar.Name = "txtLugar"
         Me.txtLugar.Size = New System.Drawing.Size(354, 24)
@@ -101,7 +101,7 @@ Partial Class frmEmpleados
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(259, 26)
+        Me.Label9.Location = New System.Drawing.Point(282, 33)
         Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(55, 18)
@@ -112,7 +112,7 @@ Partial Class frmEmpleados
         '
         Me.cboClaveS.Enabled = False
         Me.cboClaveS.FormattingEnabled = True
-        Me.cboClaveS.Location = New System.Drawing.Point(110, 26)
+        Me.cboClaveS.Location = New System.Drawing.Point(116, 26)
         Me.cboClaveS.Margin = New System.Windows.Forms.Padding(4)
         Me.cboClaveS.Name = "cboClaveS"
         Me.cboClaveS.Size = New System.Drawing.Size(127, 26)
@@ -132,7 +132,7 @@ Partial Class frmEmpleados
         'btnAgregar
         '
         Me.btnAgregar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.btnAgregar.Location = New System.Drawing.Point(765, 120)
+        Me.btnAgregar.Location = New System.Drawing.Point(780, 120)
         Me.btnAgregar.Margin = New System.Windows.Forms.Padding(4)
         Me.btnAgregar.Name = "btnAgregar"
         Me.btnAgregar.Size = New System.Drawing.Size(123, 32)
@@ -143,7 +143,7 @@ Partial Class frmEmpleados
         'btnGrabar
         '
         Me.btnGrabar.Enabled = False
-        Me.btnGrabar.Location = New System.Drawing.Point(765, 174)
+        Me.btnGrabar.Location = New System.Drawing.Point(780, 174)
         Me.btnGrabar.Margin = New System.Windows.Forms.Padding(4)
         Me.btnGrabar.Name = "btnGrabar"
         Me.btnGrabar.Size = New System.Drawing.Size(123, 32)
@@ -153,7 +153,7 @@ Partial Class frmEmpleados
         '
         'btnSalir
         '
-        Me.btnSalir.Location = New System.Drawing.Point(763, 230)
+        Me.btnSalir.Location = New System.Drawing.Point(778, 230)
         Me.btnSalir.Margin = New System.Windows.Forms.Padding(4)
         Me.btnSalir.Name = "btnSalir"
         Me.btnSalir.Size = New System.Drawing.Size(125, 32)
@@ -194,7 +194,7 @@ Partial Class frmEmpleados
         Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox1.Size = New System.Drawing.Size(712, 138)
+        Me.GroupBox1.Size = New System.Drawing.Size(725, 138)
         Me.GroupBox1.TabIndex = 87
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "personal"
@@ -202,7 +202,7 @@ Partial Class frmEmpleados
         'txtNombre
         '
         Me.txtNombre.Enabled = False
-        Me.txtNombre.Location = New System.Drawing.Point(89, 24)
+        Me.txtNombre.Location = New System.Drawing.Point(104, 24)
         Me.txtNombre.Margin = New System.Windows.Forms.Padding(4)
         Me.txtNombre.Name = "txtNombre"
         Me.txtNombre.Size = New System.Drawing.Size(354, 22)
@@ -211,7 +211,7 @@ Partial Class frmEmpleados
         'txtCp
         '
         Me.txtCp.Enabled = False
-        Me.txtCp.Location = New System.Drawing.Point(518, 61)
+        Me.txtCp.Location = New System.Drawing.Point(562, 61)
         Me.txtCp.Margin = New System.Windows.Forms.Padding(4)
         Me.txtCp.Name = "txtCp"
         Me.txtCp.Size = New System.Drawing.Size(131, 22)
@@ -221,7 +221,7 @@ Partial Class frmEmpleados
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(471, 62)
+        Me.Label6.Location = New System.Drawing.Point(506, 62)
         Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(41, 18)
@@ -231,7 +231,7 @@ Partial Class frmEmpleados
         'txtDomicilio
         '
         Me.txtDomicilio.Enabled = False
-        Me.txtDomicilio.Location = New System.Drawing.Point(89, 61)
+        Me.txtDomicilio.Location = New System.Drawing.Point(104, 61)
         Me.txtDomicilio.Margin = New System.Windows.Forms.Padding(4)
         Me.txtDomicilio.Name = "txtDomicilio"
         Me.txtDomicilio.Size = New System.Drawing.Size(374, 22)
@@ -240,7 +240,7 @@ Partial Class frmEmpleados
         'txtSeguro
         '
         Me.txtSeguro.Enabled = False
-        Me.txtSeguro.Location = New System.Drawing.Point(133, 98)
+        Me.txtSeguro.Location = New System.Drawing.Point(143, 98)
         Me.txtSeguro.Margin = New System.Windows.Forms.Padding(4)
         Me.txtSeguro.Name = "txtSeguro"
         Me.txtSeguro.Size = New System.Drawing.Size(220, 22)
@@ -307,7 +307,7 @@ Partial Class frmEmpleados
         Me.GroupBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox2.Size = New System.Drawing.Size(713, 101)
+        Me.GroupBox2.Size = New System.Drawing.Size(726, 101)
         Me.GroupBox2.TabIndex = 89
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Horario"
@@ -315,7 +315,7 @@ Partial Class frmEmpleados
         'txtHoraSalida
         '
         Me.txtHoraSalida.Enabled = False
-        Me.txtHoraSalida.Location = New System.Drawing.Point(110, 65)
+        Me.txtHoraSalida.Location = New System.Drawing.Point(121, 65)
         Me.txtHoraSalida.Margin = New System.Windows.Forms.Padding(4)
         Me.txtHoraSalida.Name = "txtHoraSalida"
         Me.txtHoraSalida.Size = New System.Drawing.Size(132, 22)
@@ -324,7 +324,7 @@ Partial Class frmEmpleados
         'txtHoraEntrada
         '
         Me.txtHoraEntrada.Enabled = False
-        Me.txtHoraEntrada.Location = New System.Drawing.Point(565, 29)
+        Me.txtHoraEntrada.Location = New System.Drawing.Point(585, 29)
         Me.txtHoraEntrada.Margin = New System.Windows.Forms.Padding(4)
         Me.txtHoraEntrada.Name = "txtHoraEntrada"
         Me.txtHoraEntrada.Size = New System.Drawing.Size(132, 22)
@@ -333,7 +333,7 @@ Partial Class frmEmpleados
         'txtTurno
         '
         Me.txtTurno.Enabled = False
-        Me.txtTurno.Location = New System.Drawing.Point(292, 28)
+        Me.txtTurno.Location = New System.Drawing.Point(307, 28)
         Me.txtTurno.Margin = New System.Windows.Forms.Padding(4)
         Me.txtTurno.Name = "txtTurno"
         Me.txtTurno.Size = New System.Drawing.Size(149, 22)
@@ -354,7 +354,7 @@ Partial Class frmEmpleados
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(456, 29)
+        Me.Label8.Location = New System.Drawing.Point(463, 30)
         Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(111, 18)
@@ -365,7 +365,7 @@ Partial Class frmEmpleados
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(234, 29)
+        Me.Label11.Location = New System.Drawing.Point(245, 29)
         Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(57, 18)
@@ -376,7 +376,7 @@ Partial Class frmEmpleados
         '
         Me.cboIdHorario.Enabled = False
         Me.cboIdHorario.FormattingEnabled = True
-        Me.cboIdHorario.Location = New System.Drawing.Point(99, 25)
+        Me.cboIdHorario.Location = New System.Drawing.Point(106, 25)
         Me.cboIdHorario.Margin = New System.Windows.Forms.Padding(4)
         Me.cboIdHorario.Name = "cboIdHorario"
         Me.cboIdHorario.Size = New System.Drawing.Size(127, 24)
@@ -403,7 +403,7 @@ Partial Class frmEmpleados
         Me.GroupBox4.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox4.Name = "GroupBox4"
         Me.GroupBox4.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox4.Size = New System.Drawing.Size(712, 68)
+        Me.GroupBox4.Size = New System.Drawing.Size(768, 68)
         Me.GroupBox4.TabIndex = 90
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "Departamento"
@@ -411,7 +411,7 @@ Partial Class frmEmpleados
         'txtNombreD
         '
         Me.txtNombreD.Enabled = False
-        Me.txtNombreD.Location = New System.Drawing.Point(353, 29)
+        Me.txtNombreD.Location = New System.Drawing.Point(382, 29)
         Me.txtNombreD.Margin = New System.Windows.Forms.Padding(4)
         Me.txtNombreD.Name = "txtNombreD"
         Me.txtNombreD.Size = New System.Drawing.Size(345, 22)
@@ -421,7 +421,7 @@ Partial Class frmEmpleados
         '
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(277, 30)
+        Me.Label16.Location = New System.Drawing.Point(298, 30)
         Me.Label16.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(73, 18)
@@ -432,7 +432,7 @@ Partial Class frmEmpleados
         '
         Me.cboIdDepartamento.Enabled = False
         Me.cboIdDepartamento.FormattingEnabled = True
-        Me.cboIdDepartamento.Location = New System.Drawing.Point(141, 27)
+        Me.cboIdDepartamento.Location = New System.Drawing.Point(157, 27)
         Me.cboIdDepartamento.Margin = New System.Windows.Forms.Padding(4)
         Me.cboIdDepartamento.Name = "cboIdDepartamento"
         Me.cboIdDepartamento.Size = New System.Drawing.Size(127, 24)

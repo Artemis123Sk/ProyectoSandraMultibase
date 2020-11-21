@@ -90,7 +90,7 @@ Public Class frmEmpleados
     End Sub
 
     Private Sub btnGrabar_Click(sender As Object, e As EventArgs) Handles btnGrabar.Click
-        Dim command As Npgsql.NpgsqlCommand = New Npgsql.NpgsqlCommand("insert into Empleados (idempleado , nombre, iddepartamentos, segurosocial, domicilio, cp, idhorario, claves) values (" & txtIdEmpleado.Text & " , '" & txtNombre.Text & "', " & cboIdDepartamento.Text & ", '" & txtSeguro.Text & "', '" & txtDomicilio.Text & "', '" & txtCp.Text & "', " & cboIdHorario.Text & ", " & cboClaveS.Text & " );", Myconnection)
+        Dim command As Npgsql.NpgsqlCommand = New Npgsql.NpgsqlCommand("insert into Empleados (idEmpleado , Nombre, idDepartamentos,  seguroSocial, Domicilio, cp, idHorario, claveS) values ('" & txtIdEmpleado.Text & "' , '" & txtNombre.Text & "', '" & cboIdDepartamento.Text & "', '" & txtSeguro.Text & "', '" & txtDomicilio.Text & "', '" & txtCp.Text & "', '" & cboIdHorario.Text & "', '" & cboClaveS.Text & "' );", Myconnection)
         command.ExecuteNonQuery()
         update()
 
