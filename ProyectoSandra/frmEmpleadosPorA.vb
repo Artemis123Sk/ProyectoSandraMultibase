@@ -1,4 +1,5 @@
-﻿Imports Npgsql
+﻿Imports System.ComponentModel
+Imports Npgsql
 Public Class frmEmpleadosPorA
     Dim Myconnection As New Npgsql.NpgsqlConnection
     Dim command As Npgsql.NpgsqlCommand
@@ -18,7 +19,7 @@ Public Class frmEmpleadosPorA
         End Try
 
         command = New Npgsql.NpgsqlCommand("select * from Empleados;", Myconnection)
-        lector = Command.ExecuteReader()
+        lector = command.ExecuteReader()
         While lector.Read()
             cboCp.Items.Add(lector(5))
         End While
@@ -33,5 +34,9 @@ Public Class frmEmpleadosPorA
             DataGridView1.Rows.Add(lector(0), lector(1), lector(6), lector(7))
         End While
         lector.Close()
+    End Sub
+
+    Private Sub frmEmpleadosPorA_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing
+        Myconnection.Close()
     End Sub
 End Class

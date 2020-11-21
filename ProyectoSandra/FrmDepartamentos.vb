@@ -1,4 +1,5 @@
-﻿Imports Npgsql
+﻿Imports System.ComponentModel
+Imports Npgsql
 
 Public Class FrmDepartamentos
     Dim Myconnection As New Npgsql.NpgsqlConnection
@@ -112,5 +113,9 @@ Public Class FrmDepartamentos
     Private Sub btnSalir_Click(sender As Object, e As EventArgs) Handles btnSalir.Click
         Myconnection.Close()
         Dispose()
+    End Sub
+
+    Private Sub FrmDepartamentos_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing
+        Myconnection.Close()
     End Sub
 End Class

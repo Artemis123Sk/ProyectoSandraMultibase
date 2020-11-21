@@ -1,4 +1,5 @@
-﻿Imports Npgsql
+﻿Imports System.ComponentModel
+Imports Npgsql
 Public Class frmConsultaEmpleados
     Dim Myconnection As New Npgsql.NpgsqlConnection
     Dim command As Npgsql.NpgsqlCommand
@@ -27,5 +28,9 @@ Public Class frmConsultaEmpleados
             DataGridView1.Rows.Add(lector(0), lector(1), lector(2), lector(3), lector(4), lector(5), lector(6), lector(7))
         End While
         lector.Close()
+    End Sub
+
+    Private Sub frmConsultaEmpleados_Closing(sender As Object, e As CancelEventArgs) Handles Me.Closing
+        Myconnection.Close()
     End Sub
 End Class
